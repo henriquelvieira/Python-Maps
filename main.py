@@ -16,7 +16,10 @@ zoom = 2
 #PLOT DO MAPA 
 gmap = gmplot.GoogleMapPlotter(lat, lng, zoom)
 gmap.scatter(latitudes, longitudes, 'red', size = 20)
+
 # # gmap.apikey = '<API-KEY>'
 gmap.draw('result/mapa.html')
+
+
 
 
